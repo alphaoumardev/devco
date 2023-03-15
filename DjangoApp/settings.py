@@ -29,9 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ah2xj@9c$f_$86a-c!_*!f4ls)_q6)^f&c)_qj@#qc@v*ag5co'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['170.187.220.180', 'devco.space']
+ALLOWED_HOSTS = ["127.0.0.1", '170.187.220.180', 'devco.space']
 
 # Application definition
 
@@ -46,12 +46,11 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'rest_framework',
-    'cloudinary',
-    'cloudinary_storage',
     'knox',
     'django_rest_passwordreset',
     'ckeditor',
     'ckeditor_demo',
+
     'feed.apps.FeedConfig',
     'topics.apps.TopicsConfig',
     'users.apps.UsersConfig',
@@ -110,8 +109,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'DjangoApp.wsgi.application'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'build/static')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'build')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -122,7 +122,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
