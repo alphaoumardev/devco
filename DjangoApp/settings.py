@@ -95,7 +95,7 @@ CORS_ALLOW_HEADERS = [
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'build'],
+        'DIRS': [os.path.join(BASE_DIR, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -109,9 +109,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'DjangoApp.wsgi.application'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'build')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -166,14 +163,19 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-
 STATIC_URL = '/static/'
+
 # MEDIA_ROOT = BASE_DIR / 'assets/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'assets/')
 MEDIA_URL = 'assets/'
 """The base url set for the images in the serializers to display the images in the front-end."""
 # BASE_URL = "http://127.0.0.1:8000"  # TODO: this has to be changed in production.
 BASE_URL = "http://170.187.220.180:8000"  # TODO: this has to be changed in production.
+
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CKEDITOR_BASEPATH = "/assets/"
 CKEDITOR_UPLOAD_PATH = "/assets/"
@@ -191,3 +193,4 @@ REST_KNOX = {
     'AUTO_REFRESH': False,
     'EXPIRY_DATETIME_FORMAT': api_settings.DATETIME_FORMAT,
 }
+
