@@ -169,8 +169,8 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'assets/')
 MEDIA_URL = 'assets/'
 """The base url set for the images in the serializers to display the images in the front-end."""
-# BASE_URL = "http://127.0.0.1:8000"  # TODO: this has to be changed in production.
-BASE_URL = "http://170.187.220.180:8000"  # TODO: this has to be changed in production.
+BASE_URL = "http://127.0.0.1:8000"  # TODO: this has to be changed in production.
+# BASE_URL = "http://170.187.220.180:8000"  # TODO: this has to be changed in production.
 
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
