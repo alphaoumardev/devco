@@ -1,0 +1,1143 @@
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 19, 2023 - 20:55:25
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+CommandError: "http://170.187.220.180/" is not a valid port number or address:port pair.
+CommandError: "170.187.220.180" is not a valid port number or address:port pair.
+CommandError: "170.187.220.180" is not a valid port number or address:port pair.
+CommandError: "170.187.220.180" is not a valid port number or address:port pair.
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+[19/Mar/2023 21:20:06] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 21:20:06] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 608
+[19/Mar/2023 21:20:07] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:20:14] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:20:14] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:20:18] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 21:20:18] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 608
+[19/Mar/2023 21:20:18] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 608
+[19/Mar/2023 21:20:19] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:20:20] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:21:04] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:21:10] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:23:28] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:23:58] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:24:10] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:24:11] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:24:28] "GET /manifest.json HTTP/1.1" 200 608
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 19, 2023 - 21:19:50
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 19, 2023 - 21:09:00
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[19/Mar/2023 21:25:28] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:25:44] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 21:25:44] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[19/Mar/2023 21:25:44] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+Unauthorized: /notifications/
+[19/Mar/2023 21:25:45] "GET /notifications/ HTTP/1.1" 401 27
+[19/Mar/2023 21:25:45] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:25:45] "GET /manifest.json HTTP/1.1" 200 608
+Unauthorized: /feeds/
+[19/Mar/2023 21:25:45] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[19/Mar/2023 21:25:45] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[19/Mar/2023 21:25:45] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[19/Mar/2023 21:25:45] "GET /my-info/ HTTP/1.1" 401 27
+[19/Mar/2023 21:25:45] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:25:53] "GET / HTTP/1.1" 200 608
+Unauthorized: /notifications/
+Unauthorized: /my-info/
+Unauthorized: /recommanded-profiles/
+[19/Mar/2023 21:25:53] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[19/Mar/2023 21:25:53] "GET /my-info/ HTTP/1.1" 401 27
+[19/Mar/2023 21:25:53] "GET /feeds/ HTTP/1.1" 401 27
+[19/Mar/2023 21:25:53] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[19/Mar/2023 21:25:53] "GET /trending/ HTTP/1.1" 401 27
+[19/Mar/2023 21:25:53] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:25:54] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /logout/
+[19/Mar/2023 21:26:08] "POST /logout/ HTTP/1.1" 401 27
+Unauthorized: /logout/
+[19/Mar/2023 21:26:09] "POST /logout/ HTTP/1.1" 401 27
+Unauthorized: /logout/
+[19/Mar/2023 21:26:10] "POST /logout/ HTTP/1.1" 401 27
+[19/Mar/2023 21:26:12] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:26:14] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:26:20] "GET / HTTP/1.1" 200 608
+Unauthorized: /recommanded-profiles/
+[19/Mar/2023 21:26:21] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[19/Mar/2023 21:26:21] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /notifications/
+[19/Mar/2023 21:26:21] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[19/Mar/2023 21:26:21] "GET /feeds/ HTTP/1.1" 401 27
+[19/Mar/2023 21:26:21] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:26:21] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:26:26] "POST /signin/ HTTP/1.1" 200 148
+Unauthorized: /feeds/
+[19/Mar/2023 21:26:26] "GET /feeds/ HTTP/1.1" 401 27
+[19/Mar/2023 21:26:26] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:26:26] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /trending/
+[19/Mar/2023 21:26:26] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[19/Mar/2023 21:26:26] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[19/Mar/2023 21:26:29] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 21:26:30] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:26:30] "GET /my-info/ HTTP/1.1" 200 716
+[19/Mar/2023 21:26:30] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:26:30] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:30] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 21:26:30] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 21:26:30] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:30] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:30] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:30] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:32] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 21:26:33] "GET /feeds/ HTTP/1.1" 200 315272
+[19/Mar/2023 21:26:33] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:33] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:33] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:52] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 21:26:53] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:26:53] "GET /my-info/ HTTP/1.1" 200 716
+[19/Mar/2023 21:26:53] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:26:53] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:53] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 21:26:53] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 21:26:53] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:53] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:53] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:53] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:55] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 21:26:55] "GET /feeds/ HTTP/1.1" 200 315272
+[19/Mar/2023 21:26:56] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:56] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:26:56] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:29:20] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:29:20] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:29:28] "GET /manifest.json HTTP/1.1" 200 608
+[19/Mar/2023 21:30:08] "GET /my-profile HTTP/1.1" 200 608
+[19/Mar/2023 21:30:34] "GET /c99e42b49ace3f6775b774414a97d6ff3d1a0e70a80744463d1735667c59fe7c HTTP/1.1" 200 608
+[19/Mar/2023 21:30:35] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 21:30:35] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:30:35] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:30:35] "GET /my-info/ HTTP/1.1" 200 716
+Internal Server Error: /feedbytopic/c99e42b49ace3f6775b774414a97d6ff3d1a0e70a80744463d1735667c59fe7c
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.7/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/renderers.py", line 102, in render
+    allow_nan=not self.strict, separators=separators
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DoesNotExist is not JSON serializable
+[19/Mar/2023 21:30:35] "GET /feedbytopic/c99e42b49ace3f6775b774414a97d6ff3d1a0e70a80744463d1735667c59fe7c HTTP/1.1" 500 15659
+[19/Mar/2023 21:30:36] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 21:30:36] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:36] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:36] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:36] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:36] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:36] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 21:30:42] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:42] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:42] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:42] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:42] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:42] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:30:53] "GET /my-profile HTTP/1.1" 200 608
+[19/Mar/2023 21:30:54] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:30:54] "GET /my-info/ HTTP/1.1" 200 716
+Internal Server Error: /feedbytopic/my-profile
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.7/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/renderers.py", line 102, in render
+    allow_nan=not self.strict, separators=separators
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DoesNotExist is not JSON serializable
+[19/Mar/2023 21:30:54] "GET /feedbytopic/my-profile HTTP/1.1" 500 15389
+[19/Mar/2023 21:30:54] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:30:54] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:54] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 21:30:54] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 21:30:54] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:54] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:54] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:54] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:30:55] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 21:31:02] "GET /my-profile HTTP/1.1" 200 608
+[19/Mar/2023 21:31:03] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 21:31:03] "GET /my-info/ HTTP/1.1" 200 716
+Internal Server Error: /feedbytopic/my-profile
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.7/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/renderers.py", line 102, in render
+    allow_nan=not self.strict, separators=separators
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DoesNotExist is not JSON serializable
+[19/Mar/2023 21:31:03] "GET /feedbytopic/my-profile HTTP/1.1" 500 15389
+[19/Mar/2023 21:31:03] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 21:31:03] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:31:03] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 21:31:03] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 21:31:03] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:31:03] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:31:03] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:31:03] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 21:31:04] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 22:04:01] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8aêz¥¿\x15ÎRWq\x91(')
+[19/Mar/2023 22:04:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[19/Mar/2023 22:04:02] code 400, message Bad request version ('À\x14À')
+[19/Mar/2023 22:04:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[19/Mar/2023 22:04:03] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 22:04:04] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x86\x19Ó&sÍ\x05\x00F\x95M¼P!P\x8bÈ\x90³\x19ã\x80Õ©¢%\x87\x96q\x84fð\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[19/Mar/2023 22:04:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[19/Mar/2023 22:04:05] "GET /api/islogged HTTP/1.1" 200 608
+[19/Mar/2023 22:28:51] "GET /my-profile HTTP/1.1" 200 608
+[19/Mar/2023 22:28:52] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 22:28:52] "GET /my-info/ HTTP/1.1" 200 716
+[19/Mar/2023 22:28:52] "GET /topics/ HTTP/1.1" 200 484
+Internal Server Error: /feedbytopic/my-profile
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.7/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/renderers.py", line 102, in render
+    allow_nan=not self.strict, separators=separators
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/dist-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DoesNotExist is not JSON serializable
+[19/Mar/2023 22:28:53] "GET /feedbytopic/my-profile HTTP/1.1" 500 15389
+[19/Mar/2023 22:28:53] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:53] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 22:28:53] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 22:28:53] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:53] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:53] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:53] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:54] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 22:28:58] "GET / HTTP/1.1" 200 608
+[19/Mar/2023 22:28:58] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 22:28:58] "GET /my-info/ HTTP/1.1" 200 716
+[19/Mar/2023 22:28:58] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 22:28:59] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 22:28:59] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 22:28:59] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:59] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:59] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:59] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:28:59] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:00] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 22:29:01] "GET /feeds/ HTTP/1.1" 200 315272
+[19/Mar/2023 22:29:01] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:01] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:01] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:03] "GET /single/65 HTTP/1.1" 200 608
+[19/Mar/2023 22:29:04] "GET /topics/ HTTP/1.1" 200 484
+[19/Mar/2023 22:29:04] "GET /my-info/ HTTP/1.1" 200 716
+[19/Mar/2023 22:29:04] "GET /favicon.ico HTTP/1.1" 200 608
+[19/Mar/2023 22:29:04] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[19/Mar/2023 22:29:04] "GET /feed/65 HTTP/1.1" 200 8694
+[19/Mar/2023 22:29:04] "GET /notifications/ HTTP/1.1" 200 8514
+[19/Mar/2023 22:29:04] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:04] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:04] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:04] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:04] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[19/Mar/2023 22:29:05] "GET /trending/ HTTP/1.1" 200 176431
+[19/Mar/2023 22:50:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[19/Mar/2023 22:50:44] "  /*à     Cookie: mstshash=Administr" 400 -
+[19/Mar/2023 23:48:23] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 04:47:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[20/Mar/2023 04:47:57] "  /*à     Cookie: mstshash=Administr" 400 -
+[20/Mar/2023 08:57:39] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 08:57:41] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 08:57:41] "GET /logo192.png HTTP/1.1" 200 608
+[20/Mar/2023 11:39:46] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 11:52:54] code 400, message Bad request version ('À\x13À')
+[20/Mar/2023 11:52:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Mar/2023 11:52:55] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 11:53:01] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 13:19:31] code 400, message Bad request syntax ('MGLNDD_170.187.220.180_8000')
+[20/Mar/2023 13:19:31] "MGLNDD_170.187.220.180_8000" 400 -
+[20/Mar/2023 15:02:09] code 400, message Bad request version ('À\x13À')
+[20/Mar/2023 15:02:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Mar/2023 15:02:11] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 15:02:15] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 16:02:28] "GET / HTTP/1.1" 200 608
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[20/Mar/2023 16:03:03] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 63117
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[20/Mar/2023 16:03:06] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 63320
+[20/Mar/2023 16:37:04,135] - Broken pipe from ('167.248.133.51', 45892)
+
+[20/Mar/2023 16:37:05] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 16:37:05,395] - Broken pipe from ('167.248.133.51', 44304)
+
+[20/Mar/2023 16:37:05] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 16:37:05] code 505, message Invalid HTTP version (2.0)
+[20/Mar/2023 16:37:05] "PRI * HTTP/2.0" 505 -
+[20/Mar/2023 16:37:06] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 16:37:06] "GET /logo192.png HTTP/1.1" 200 608
+[20/Mar/2023 16:52:29] "GET /single/65 HTTP/1.1" 200 608
+[20/Mar/2023 16:52:29] "GET /static/js/main.bcc15c27.js HTTP/1.1" 304 0
+[20/Mar/2023 16:52:30] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 304 0
+[20/Mar/2023 16:52:31] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 16:52:31] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 16:52:31] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 16:52:31] "GET /feed/65 HTTP/1.1" 200 8694
+[20/Mar/2023 16:52:31] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 16:52:31] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 16:52:32] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 16:52:32] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 16:52:32] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 16:52:32] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 16:52:32] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 16:52:34] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 17:05:32] code 400, message Bad request version ('À\x14À')
+[20/Mar/2023 17:05:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Mar/2023 17:46:50] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 17:46:51] code 400, message Bad request version ('À\x13À')
+[20/Mar/2023 17:46:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Mar/2023 20:15:35] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 20:15:35] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 20:15:36] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 20:15:36] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 20:15:36] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 20:15:36] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 20:15:36] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 20:15:36] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:36] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:36] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:36] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:36] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:38] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 20:15:39] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 20:15:39] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:39] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:39] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:47] "GET /single/48 HTTP/1.1" 200 608
+[20/Mar/2023 20:15:47] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 20:15:47] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 20:15:47] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 20:15:47] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:47] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 20:15:47] "GET /feed/48 HTTP/1.1" 200 7374
+[20/Mar/2023 20:15:47] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 20:15:48] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:48] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:48] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:48] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:48] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:15:48] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 20:27:36] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:27:36] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:27:37] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:27:38] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 20:27:38] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 21:40:21] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 21:40:21] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 21:40:21] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 21:40:21] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 21:40:21] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+/var/www/DjangoApp/DjangoApp/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 19, 2023 - 21:24:54
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+/var/www/DjangoApp/DjangoApp/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 19, 2023 - 21:24:54
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[20/Mar/2023 22:25:53] "GET /single/48 HTTP/1.1" 200 608
+Unauthorized: /notifications/
+[20/Mar/2023 22:25:54] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:25:55] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /my-info/
+[20/Mar/2023 22:25:55] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /feed/48
+[20/Mar/2023 22:25:55] "GET /feed/48 HTTP/1.1" 401 27
+[20/Mar/2023 22:25:56] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:25:56] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:25:56] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:04] "GET /single/48 HTTP/1.1" 200 608
+Unauthorized: /feed/48
+[20/Mar/2023 22:26:05] "GET /feed/48 HTTP/1.1" 401 27
+[20/Mar/2023 22:26:05] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /notifications/
+[20/Mar/2023 22:26:05] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:26:05] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:26:05] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:05] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:05] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /logout/
+[20/Mar/2023 22:26:08] "POST /logout/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:10] "GET /single/48 HTTP/1.1" 200 608
+Unauthorized: /notifications/
+Unauthorized: /trending/
+[20/Mar/2023 22:26:11] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:26:11] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:11] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:11] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /feed/48
+[20/Mar/2023 22:26:11] "GET /feed/48 HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:26:11] "GET /my-info/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:11] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /logout/
+[20/Mar/2023 22:26:14] "POST /logout/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:18] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:26:19] "GET /manifest.json HTTP/1.1" 200 608
+Unauthorized: /logout/
+[20/Mar/2023 22:26:27] "POST /logout/ HTTP/1.1" 401 27
+Unauthorized: /logout/
+[20/Mar/2023 22:26:27] "POST /logout/ HTTP/1.1" 401 27
+Unauthorized: /logout/
+[20/Mar/2023 22:26:27] "POST /logout/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:26:29] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:29] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:29] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /notifications/
+[20/Mar/2023 22:26:29] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:29] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 22:26:30] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /my-profile/
+[20/Mar/2023 22:26:30] "GET /my-profile/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:30] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /trending/
+[20/Mar/2023 22:26:30] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:30] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:31] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /trending/
+[20/Mar/2023 22:26:31] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:31] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:31] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /feeds/
+[20/Mar/2023 22:26:31] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:33] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:26:33] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:26:34] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+Unauthorized: /notifications/
+[20/Mar/2023 22:26:36] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:36] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /feeds/
+[20/Mar/2023 22:26:36] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:26:36] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:26:36] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:36] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:36] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:26:39] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 22:26:47] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:26:47] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:26:47] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+Unauthorized: /notifications/
+[20/Mar/2023 22:26:49] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:49] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:26:49] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:26:49] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:49] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:26:49] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:26:50] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 22:26:58] "POST /signin/ HTTP/1.1" 200 148
+[20/Mar/2023 22:26:58] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:26:58] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:26:58] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:26:58] "GET /favicon.ico HTTP/1.1" 200 608
+Unauthorized: /feeds/
+[20/Mar/2023 22:26:58] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:27:00] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:27:01] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:27:01] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 22:27:02] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:27:02] "GET /my-info/ HTTP/1.1" 200 704
+[20/Mar/2023 22:27:02] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:27:02] "GET /recommanded-profiles/ HTTP/1.1" 200 8237
+[20/Mar/2023 22:27:02] "GET /notifications/ HTTP/1.1" 200 8466
+[20/Mar/2023 22:27:03] "GET /favicon.ico HTTP/1.1" 200 608
+[20/Mar/2023 22:27:04] "GET /trending/ HTTP/1.1" 200 175855
+[20/Mar/2023 22:27:05] "GET /feeds/ HTTP/1.1" 200 314042
+[20/Mar/2023 22:27:33] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:27:39] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:27:42] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:27:47] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:47] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:47] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:47] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:47] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:51] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:52] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:27:52] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:28] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:28] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:28] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:28] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:28] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:32] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:32] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:28:33] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:29:23] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:29:29] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:29:31] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:29:31] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:29:49] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:30:01] "GET /manifest.json HTTP/1.1" 200 608
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:23:36
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:23:36
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /manifest.json
+[20/Mar/2023 22:30:16] "GET /manifest.json HTTP/1.1" 404 7605
+Not Found: /manifest.json
+[20/Mar/2023 22:30:49] "GET /manifest.json HTTP/1.1" 404 7605
+[20/Mar/2023 22:31:27] "GET / HTTP/1.1" 200 608
+Unauthorized: /notifications/
+[20/Mar/2023 22:31:29] "GET /notifications/ HTTP/1.1" 401 27
+Not Found: /favicon.ico
+[20/Mar/2023 22:31:29] "GET /favicon.ico HTTP/1.1" 404 7599
+Unauthorized: /my-info/
+[20/Mar/2023 22:31:29] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:31:29] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:31:29] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /trending/
+[20/Mar/2023 22:31:29] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:31:29] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:31:45] "GET / HTTP/1.1" 200 608
+Unauthorized: /notifications/
+[20/Mar/2023 22:31:46] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:31:46] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:31:46] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:31:46] "GET /my-info/ HTTP/1.1" 401 27
+[20/Mar/2023 22:31:46] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:31:46] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /logout/
+[20/Mar/2023 22:31:49] "POST /logout/ HTTP/1.1" 401 27
+Unauthorized: /logout/
+[20/Mar/2023 22:35:12] "POST /logout/ HTTP/1.1" 401 27
+[20/Mar/2023 22:35:15] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:35:15] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+Unauthorized: /notifications/
+[20/Mar/2023 22:35:16] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:35:16] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:35:16] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:35:16] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /my-info/
+[20/Mar/2023 22:35:16] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:35:16] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:35:25] "GET / HTTP/1.1" 200 608
+Unauthorized: /recommanded-profiles/
+Unauthorized: /feeds/
+Unauthorized: /notifications/
+Unauthorized: /my-info/
+[20/Mar/2023 22:35:25] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:35:25] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:35:25] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:35:25] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:35:25] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:35:25] "GET /trending/ HTTP/1.1" 401 27
+Not Found: /manifest.json
+[20/Mar/2023 22:39:27] "GET /manifest.json HTTP/1.1" 404 7605
+Not Found: /manifest.json
+[20/Mar/2023 22:39:27] "GET /manifest.json HTTP/1.1" 404 7605
+Not Found: /manifest.json
+[20/Mar/2023 22:39:53] "GET /manifest.json HTTP/1.1" 404 7605
+Not Found: /manifest.json
+[20/Mar/2023 22:40:55] "GET /manifest.json HTTP/1.1" 404 7605
+[20/Mar/2023 22:41:09] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:41:09] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:41:10] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+Unauthorized: /notifications/
+[20/Mar/2023 22:41:12] "GET /notifications/ HTTP/1.1" 401 27
+Not Found: /manifest.json
+[20/Mar/2023 22:41:12] "GET /manifest.json HTTP/1.1" 404 7605
+Unauthorized: /trending/
+[20/Mar/2023 22:41:12] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:41:12] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:41:12] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:41:12] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:41:16] "POST /signin/ HTTP/1.1" 200 148
+[20/Mar/2023 22:41:17] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /trending/
+[20/Mar/2023 22:41:17] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:41:17] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:41:17] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:41:19] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:41:19] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:41:19] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 22:41:20] "GET /topics/ HTTP/1.1" 200 484
+Not Found: /manifest.json
+[20/Mar/2023 22:41:21] "GET /manifest.json HTTP/1.1" 404 7605
+[20/Mar/2023 22:41:21] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 22:41:21] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 22:41:21] "GET /assets/developers/11.jpeg HTTP/1.1" 200 14241
+[20/Mar/2023 22:41:21] "GET /assets/developers/18.jpeg HTTP/1.1" 200 15834
+[20/Mar/2023 22:41:21] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 22:41:21] "GET /assets/developers/4.jpeg HTTP/1.1" 200 10986
+[20/Mar/2023 22:41:21] "GET /assets/developers/7.jpeg HTTP/1.1" 200 9303
+[20/Mar/2023 22:41:21] "GET /assets/developers/30.jpeg HTTP/1.1" 200 18841
+[20/Mar/2023 22:41:23] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 22:41:23] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 22:41:24] "GET /assets/developers/7.jpeg HTTP/1.1" 200 9303
+[20/Mar/2023 22:41:24] "GET /assets/developers/30.jpeg HTTP/1.1" 200 18841
+[20/Mar/2023 22:41:24] "GET /assets/developers/18.jpeg HTTP/1.1" 200 15834
+Not Found: /single/65
+[20/Mar/2023 22:41:33] "GET /single/65 HTTP/1.1" 404 7593
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:30:06
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:30:06
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[20/Mar/2023 22:48:12] "GET / HTTP/1.1" 200 608
+Unauthorized: /notifications/
+[20/Mar/2023 22:48:14] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:14] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:48:14] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:48:14] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:48:15] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:48:15] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:37] "GET / HTTP/1.1" 200 608
+Unauthorized: /notifications/
+[20/Mar/2023 22:48:37] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:48:37] "GET /my-info/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:37] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:48:37] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:48:37] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:48:37] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:38] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:48:39] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /feeds/
+[20/Mar/2023 22:48:39] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:48:39] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:48:39] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:48:39] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /notifications/
+[20/Mar/2023 22:48:39] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:40] "GET / HTTP/1.1" 200 608
+Unauthorized: /notifications/
+[20/Mar/2023 22:48:40] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:40] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /trending/
+[20/Mar/2023 22:48:40] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:48:40] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /my-info/
+[20/Mar/2023 22:48:40] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:48:40] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:48:44] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:48:58] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:48:59] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:48:59] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+Unauthorized: /my-info/
+[20/Mar/2023 22:49:00] "GET /my-info/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:49:00] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:49:00] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /trending/
+[20/Mar/2023 22:49:00] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /notifications/
+[20/Mar/2023 22:49:00] "GET /notifications/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:49:00] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:49:24] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:49:28] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:49:29] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 22:49:29] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+Unauthorized: /feeds/
+[20/Mar/2023 22:49:30] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /notifications/
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:49:30] "GET /notifications/ HTTP/1.1" 401 27
+[20/Mar/2023 22:49:30] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+[20/Mar/2023 22:49:30] "GET /feeds/ HTTP/1.1" 401 27
+Unauthorized: /trending/
+[20/Mar/2023 22:49:30] "GET /trending/ HTTP/1.1" 401 27
+[20/Mar/2023 22:49:30] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:49:35] "POST /signin/ HTTP/1.1" 200 148
+[20/Mar/2023 22:49:35] "GET /topics/ HTTP/1.1" 200 484
+Unauthorized: /trending/
+[20/Mar/2023 22:49:35] "GET /trending/ HTTP/1.1" 401 27
+Unauthorized: /recommanded-profiles/
+[20/Mar/2023 22:49:35] "GET /recommanded-profiles/ HTTP/1.1" 401 27
+Unauthorized: /feeds/
+[20/Mar/2023 22:49:35] "GET /feeds/ HTTP/1.1" 401 27
+[20/Mar/2023 22:49:37] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:49:37] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:49:38] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 22:49:39] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:49:39] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 22:49:39] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:49:39] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 22:49:39] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:39] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 22:49:39] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:39] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:39] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:39] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:40] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 22:49:41] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 22:49:42] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:42] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:42] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:45] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:49:45] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:49:45] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 22:49:46] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:49:46] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 22:49:46] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 22:49:46] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 22:49:46] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:49:46] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:47] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:47] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:47] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:47] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:48] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 22:49:49] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 22:49:49] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:49] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:50] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:51] "GET /single/65 HTTP/1.1" 200 608
+[20/Mar/2023 22:49:51] "GET /static/js/main.bcc15c27.js HTTP/1.1" 200 1857056
+[20/Mar/2023 22:49:51] "GET /static/css/main.4fbd1d9d.css HTTP/1.1" 200 257711
+[20/Mar/2023 22:49:53] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:49:53] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 22:49:53] "GET /manifest.json HTTP/1.1" 200 608
+[20/Mar/2023 22:49:53] "GET /assets/developers/30.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:53] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 22:49:53] "GET /feed/65 HTTP/1.1" 200 8694
+[20/Mar/2023 22:49:53] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 22:49:53] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:53] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:54] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:54] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 22:49:54] "GET /trending/ HTTP/1.1" 200 176431
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:48:07
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:48:07
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /single/65
+[20/Mar/2023 22:58:42] "GET /single/65 HTTP/1.1" 404 7593
+[20/Mar/2023 22:58:49] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:58:49] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 22:58:49] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 22:58:50] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 22:58:50] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 22:58:50] "GET /assets/developers/30.jpeg HTTP/1.1" 200 18841
+[20/Mar/2023 22:58:50] "GET /assets/developers/11.jpeg HTTP/1.1" 200 14241
+[20/Mar/2023 22:58:50] "GET /assets/developers/18.jpeg HTTP/1.1" 200 15834
+[20/Mar/2023 22:58:50] "GET /assets/developers/4.jpeg HTTP/1.1" 200 10986
+[20/Mar/2023 22:58:50] "GET /assets/developers/7.jpeg HTTP/1.1" 200 9303
+[20/Mar/2023 22:58:51] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 22:58:52] "GET /feeds/ HTTP/1.1" 200 315272
+Not Found: /single/65
+[20/Mar/2023 22:58:55] "GET /single/65 HTTP/1.1" 404 7593
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:55:18
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/var/www/DjangoApp/DjangoApp/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:55:18
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[20/Mar/2023 22:59:58] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 22:59:59] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:00:00] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:00:00] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:00:00] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:00:02] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:00:03] "GET /feeds/ HTTP/1.1" 200 315272
+Not Found: /single/65
+[20/Mar/2023 23:00:05] "GET /single/65 HTTP/1.1" 404 7466
+/var/www/DjangoApp/DjangoApp/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:59:53
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+/var/www/DjangoApp/DjangoApp/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 22:59:53
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+[20/Mar/2023 23:01:05] "GET /single/65 HTTP/1.1" 404 179
+[20/Mar/2023 23:01:07] "GET /single/65 HTTP/1.1" 404 179
+[20/Mar/2023 23:01:13] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:01:13] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:01:14] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:01:14] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:01:14] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:01:16] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:01:16] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:02:05] "GET /me HTTP/1.1" 404 179
+[20/Mar/2023 23:02:47] "GET /assets/developers/30.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:02:47] "GET /assets/developers/4.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:02:47] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:02:47] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:02:47] "GET /assets/developers/11.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:03:48] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:03:48] "GET /assets/developers/30.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:03:49] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:04:33] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:04:34] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:04:35] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:04:35] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:04:35] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:04:37] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:04:38] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:08:01] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:08:02] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:08:02] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:08:02] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:08:02] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:08:03] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:08:06] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:08:06] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:08:06] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:08:06] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:08:07] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:08:08] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:08:09] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:08:12] "GET /single/65 HTTP/1.1" 404 179
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 23:01:00
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 23:00:59
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+[20/Mar/2023 23:09:06] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:09:07] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:09:11] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:09:13] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:09:13] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:09:13] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:09:15] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:09:16] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:09:17] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:09:20] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:09:20] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:09:20] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:09:20] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:21] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:21] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:09:22] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:09:23] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:23] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:24] "GET /manifest.json HTTP/1.1" 404 179
+[20/Mar/2023 23:09:25] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:09:26] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:09:26] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:09:28] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:09:28] "GET /assets/developers/11.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:28] "GET /assets/developers/4.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:29] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:09:29] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:29] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:34] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:09:34] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:09:34] "GET /assets/developers/11.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:34] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:34] "GET /assets/developers/4.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:34] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:38] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:09:38] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:09:38] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:09:38] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:09:38] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:09:39] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:39] "GET /assets/developers/4.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:39] "GET /assets/developers/11.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:39] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:40] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:09:41] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:09:41] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:41] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:43] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:09:44] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:09:44] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:09:44] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:09:44] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:09:44] "GET /assets/developers/11.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:44] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:44] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:45] "GET /assets/developers/4.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:46] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:09:47] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:09:47] "GET /assets/developers/7.jpeg HTTP/1.1" 404 179
+[20/Mar/2023 23:09:47] "GET /assets/developers/18.jpeg HTTP/1.1" 404 179
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 23:08:54
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://170.187.220.180:8000/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 20, 2023 - 23:08:54
+Django version 3.2.18, using settings 'DjangoApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.7/dist-packages/whitenoise/base.py:109: UserWarning: No directory at: /var/www/DjangoApp/staticfiles/
+  warnings.warn(f"No directory at: {root}")
+[20/Mar/2023 23:11:16] "GET / HTTP/1.1" 200 608
+[20/Mar/2023 23:11:17] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:11:17] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:11:17] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:11:17] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:11:17] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:17] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:17] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:17] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:19] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:11:20] "GET /feeds/ HTTP/1.1" 200 315272
+[20/Mar/2023 23:11:20] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:20] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:24] "GET /single/65 HTTP/1.1" 200 608
+[20/Mar/2023 23:11:24] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:11:24] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:11:25] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:11:25] "GET /feed/65 HTTP/1.1" 200 8694
+[20/Mar/2023 23:11:25] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:11:25] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:25] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:25] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:25] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:26] "GET /trending/ HTTP/1.1" 200 176431
+[20/Mar/2023 23:11:35] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:45] "GET /single/65 HTTP/1.1" 200 608
+[20/Mar/2023 23:11:45] "GET /my-info/ HTTP/1.1" 200 716
+[20/Mar/2023 23:11:45] "GET /topics/ HTTP/1.1" 200 484
+[20/Mar/2023 23:11:45] "GET /notifications/ HTTP/1.1" 200 8514
+[20/Mar/2023 23:11:46] "GET /feed/65 HTTP/1.1" 200 8694
+[20/Mar/2023 23:11:46] "GET /recommanded-profiles/ HTTP/1.1" 200 8321
+[20/Mar/2023 23:11:46] "GET /assets/developers/18.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:46] "GET /assets/developers/11.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:46] "GET /assets/developers/7.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:46] "GET /assets/developers/4.jpeg HTTP/1.1" 200 608
+[20/Mar/2023 23:11:46] "GET /trending/ HTTP/1.1" 200 176431
