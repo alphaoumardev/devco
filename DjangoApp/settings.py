@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ah2xj@9c$f_$86a-c!_*!f4ls)_q6)^f&c)_qj@#qc@v*ag5co'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = ['170.187.220.180']
 
@@ -172,7 +172,6 @@ MEDIA_URL = 'assets/'
 # BASE_URL = "http://127.0.0.1:8000"  # TODO: this has to be changed in production.
 BASE_URL = "http://170.187.220.180:8000"  # TODO: this has to be changed in production.
 
-
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
@@ -193,4 +192,3 @@ REST_KNOX = {
     'AUTO_REFRESH': False,
     'EXPIRY_DATETIME_FORMAT': api_settings.DATETIME_FORMAT,
 }
-
