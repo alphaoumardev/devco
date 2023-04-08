@@ -25,6 +25,7 @@ class CommentatorSerializer(serializers.ModelSerializer):
         else:
             return None
 
+
 class CommentsPostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comments
