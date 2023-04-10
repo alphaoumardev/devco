@@ -97,11 +97,11 @@ class FeedSerializer(serializers.ModelSerializer):
         else:
             return None
 
-    """""
-    #ANOTHER WAY TO ADD THE BASE URL
+    # """""
+    # ANOTHER WAY TO ADD THE BASE URL
     def to_representation(self, instance):
         representation = super().to_representation(instance)
         if instance.feed_image:
             representation['feed_image'] = settings.BASE_URL + representation['feed_image']
         return representation
-    """""
+    # """""
