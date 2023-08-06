@@ -10,6 +10,13 @@ from topics.models import Topics
 from topics.serializers import TopicsCountSerializer, TopicsSerializer
 
 
+# username: alphaoumardev
+# password: Wanglishi200@
+
+# Questions
+# city: Nanjing
+# university: NUIST
+# mom: Fatoumata Binta
 @api_view(["GET", "POST"])
 @permission_classes([AllowAny])
 def get_topics(request):

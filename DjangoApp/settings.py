@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-ah2xj@9c$f_$86a-c!_*!f4ls)_q6)^f&c)_qj@#qc@v*ag5co
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['170.187.220.180']
+# ALLOWED_HOSTS = ['170.187.220.180']
+ALLOWED_HOSTS = ['127.0.0.1:8000', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
@@ -63,7 +64,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'DjangoApp.urls'
-# CORS_ORIGNS_ALLOW_ALL = True
+# CORS_ORIGINS_ALLOW_ALL = True
 CORS_ALLOW_METHODS = [
     "DELETE",
     "GET",
