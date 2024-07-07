@@ -54,7 +54,7 @@ def get_feeds(request):
                 Q(title__exact=query)
             ).order_by('-views', '-posted')
 
-            """Adding rencent top feed to the feed list"""
+            """Adding recent top feed to the feed list"""
             index = 0
             for con in recent_cons:
                 if con not in cons:

@@ -2,7 +2,7 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 
 from DjangoApp import settings
-from users.models import Profile
+from .models import Profile
 
 
 # User Serializer
